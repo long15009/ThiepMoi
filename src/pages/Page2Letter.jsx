@@ -47,7 +47,7 @@ export default function Page2Letter({ onClose }) {
         'service_yfctapq',
         'template_r26n5oq',
         { from_name: name || 'Em yêu', message: reply, to_email: 'chuyenmuahang1509@gmail.com' },
-        'A9v0f9iqsuXowMOrV'
+        { publicKey: 'A9v0f9iqsuXowMOrV' }
       )
       setSent(true)
     } catch (err) {
