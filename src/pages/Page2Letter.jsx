@@ -100,7 +100,7 @@ export default function Page2Letter({ onClose }) {
                 </p>
 
                 <div className="space-y-2 sm:space-y-3 mb-4">
-                  <h3 className="font-serif text-sky-600 font-semibold text-base sm:text-lg border-b border-sky-200 pb-1">📅 Kế hoạch ngày hẹn</h3>
+                  <h3 className="font-serif text-sky-600 font-semibold text-base sm:text-lg border-b border-sky-200 pb-1">📅 Kế hoạch ngày hẹn - Ngày 20/06 nìiii </h3>
                   {DATE_PLAN.map((item, i) => (
                     <motion.div key={i}
                       className="flex items-start gap-2 sm:gap-3 bg-sky-50 rounded-xl px-3 sm:px-4 py-2.5"
